@@ -1,7 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<h1 id="heading">Random Colors</h1>
-<p id="paragraph">Learn DOM manipulation.</p>
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 
-<button id="changeColor">Random Color</button>
+   
+</head>
 
-<script src="app.js"></script>
+<body>
+
+    <main class="container">
+
+        <h1>My To-Do List</h1>
+
+        <p class="subtitle">Organize your daily tasks!</p>
+
+        <form id="todo-form">
+            <input
+                type="text"
+                id="todo-input"
+                placeholder="Enter a new task..."
+                aria-label="New task"
+                required
+            >
+
+            <button type="submit" id="add-button">
+                Add Task
+            </button>
+        </form>
+
+        <p id="task-count">You have 0 tasks remaining.</p>
+
+        <ul id="todo-list"></ul>
+
+        <button id="clear-button" type="button">
+            Clear All Tasks
+        </button>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
