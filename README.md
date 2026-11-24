@@ -100,5 +100,3 @@ This project is an important step in my journey toward becoming a better web dev
 ## Author
 
 **Clement Wahome**
-
-GitHub: Add your GitHub profile link here.
